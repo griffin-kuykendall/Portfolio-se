@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Griffin Kuykendall | Portfolio</title>
+  <link rel="icon" type="image/png" href="initials.favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header" data-aos="fade-down">
+    <nav class="nav">
+      <h1 class="nav__logo">Griffin Kuykendall</h1>
+      <button class="nav__toggle" id="navToggle">☰</button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <div class="hero__content">
+      <h2 class="hero__title">Aspiring Full-Stack Developer</h2>
+      <p class="hero__subtitle">Crafting clean, responsive web experiences</p>
+      <a href="#projects" class="hero__cta">View Projects</a>
+    </div>
+  </section>
+
+  <section id="about" class="about" data-aos="fade-up">
+    <h2 class="about__title">About Me</h2>
+    <p class="about__text">Hey, I’m Griffin, a frontend-focused developer with a passion for clean code and creative interfaces. Right now I’m diving deep into HTML, CSS, and JavaScript, and soon I’ll be exploring the world of backend development to round out my skills as a full-stack engineer.
+
+        I’m all about building responsive, user-friendly web experiences that not only work well but feel good to use. Whether it’s a solo project or a collaboration, I’m comfortable using Git and GitHub to keep things organized and efficient.
+        
+        Currently, I’m focused on leveling up my development toolkit, expanding my portfolio, and preparing to launch my career in software engineering.
+        
+        When I’m not coding, you’ll probably find me surfing, traveling, or learning new tools.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="projects__title" data-aos="fade-up">Projects</h2>
+    <div class="projects__grid">
+      <div class="project-card" data-aos="zoom-in">
+        <h3 class="project-card__title">Coffeeshop Website</h3>
+        <p class="project-card__description">
+          A stylish and responsive coffee shop website built with semantic HTML and modern CSS layout techniques.
+        </p>
+        <p class="project-card__tech">Tech: HTML, CSS</p>
+        <div class="project-card__links">
+          <a href="https://github.com/griffin-kuykendall/se_project_coffeeshop" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+        <h3 class="project-card__title">Spots Gallery</h3>
+        <p class="project-card__description">
+          An interactive gallery showcasing favorite locations, with clean layout and modal functionality.
+        </p>
+        <p class="project-card__tech">Tech: HTML, CSS, JavaScript</p>
+        <div class="project-card__links">
+          <a href="https://github.com/griffin-kuykendall/se_project_spots" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills" data-aos="fade-up">
+    <h2 class="skills__title">Skills</h2>
+    <ul class="skills__list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git</li>
+      <li>GitHub</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2 class="contact__title">Contact</h2>
+    <p class="contact__text">Let's connect!</p>
+    <ul class="contact__links">
+      <li><a href="https://www.linkedin.com/in/griffin-kuykendall-b78612355" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/griffin-kuykendall" target="_blank">GitHub</a></li>
+      <li><a href="mailto:griffinkuykendall@yahoo.com">Email Me</a></li>
+    </ul>
+  </section>
+
+  <footer class="footer" data-aos="fade-up">
+    <p class="footer__text">© 2025 Griffin Kuykendall</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
